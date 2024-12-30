@@ -1,0 +1,48 @@
+.hello:link {
+    color: orange;
+}
+
+.hello:hover {
+    color: lightgreen;
+    font-family: comic sans ms;
+    font-size: 18px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: red;
+}
+
+li:first-child a {
+    color: goldenrod;
+}
+
+li:last-child a {
+    color: rgb(98, 0, 255);
+}
+
+li:nth-child(even) a {
+    color: rgb(0, 242, 255);
+}
+
+li:nth-child(even) a:hover {
+    color: rgb(255, 196, 0);
+}
+
+/* nth-child
+(5)
+(3n-1) = kelipatan
+(even) = genap
+(odd) = ganjil
+*/
+
+p:first-of-type {
+    color:brown;
+}
+
+p:last-of-type {
+    color:rgb(0, 255, 179);
+}

@@ -1,0 +1,23 @@
+h1 {
+    font-family:comic sans ms, arial, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
+p {
+    font-family:trebuchet MS, times new roman, serif;
+    line-height: 25px;
+}
+
+h2 {
+    font: italic normal bold 40px/18px helvetica,arial, sans-serif;
+}
+
+/* shorthand (singkatan)
+contoh di h2
+properti : font:
+urutan : font-style (italic)(optional), font-variant (normal)(optional), font-weight (bold)(optional), font-size (40px)(wajib) /line-height (18px)(optional), font-family (helvetica,arial, sans-serif)(wajib)
+
+*/

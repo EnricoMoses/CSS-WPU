@@ -1,0 +1,31 @@
+body {
+    font-family: comic sans ms;
+}
+
+h1, h2 {
+    color:greenyellow ;
+}
+
+ul li a {
+    color: olive;
+}
+
+ol li a {
+    color: red;
+}
+
+#p1 {
+    color:lightblue
+}
+
+.p2 {
+    color:lightcoral
+}
+
+.cetak-tebal {
+    font-weight: bold;
+}
+
+p.cetak-tebal {
+    font-size: 10px;
+}

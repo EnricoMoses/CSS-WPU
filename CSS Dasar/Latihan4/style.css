@@ -1,0 +1,17 @@
+body {
+    background-color: deeppink;
+    background-image: url(gambar/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+/* shothand background
+background: color url() position repeat
+
+contoh:
+background: white url(gambar/bg-1.png) no-repeat top right;
+*/

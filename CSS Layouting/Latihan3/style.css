@@ -1,0 +1,39 @@
+/* kalau vertical margin yang dipilih adalah margin yang paling besar
+sedangkankalau horizontal akan di jumlahkan margin kiri dan margin kanan 
+berlaku untuk inline dan inline-block*/
+
+
+/* margin auto khusus untuk margin kiri dan kanan dan akan menyesuaikan di tengah tengah parentnya */
+
+/* shorhair margin:
+jika 1 nilai maka:
+- keempat sisi sama nilainya
+jika 2 nilai maka:
+- valur pertama untuk atas dan bawah
+- value kedua untuk kanan dan kiri 
+jika 3 nilai maka :
+- valur pertama untuk atas dan bawah
+- value kedua untuk kanan dan kiri
+-value ketiga untuk bawah
+jika valuenya ada empat maka :
+cara membacanya sesuai arah jarum jam yaitu atas kanan bawah kiri
+*/
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    margin: 10px 20px 30px 40px ;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: chocolate;
+}
+
